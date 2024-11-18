@@ -1,0 +1,33 @@
+/* Sección de Explicación */
+.about {
+    padding: 40px 20px;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #00796b;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Carrusel Bootstrap */
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 500px; /* O ajusta según tu diseño */
+    object-fit: cover; /* Recorta las imágenes para que se ajusten perfectamente */
+}
+
